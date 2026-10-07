@@ -6585,26 +6585,27 @@ button:hover {
     border-radius: 16px;
 
     font-size: 23px;
+    font-weight: 700;
     opacity: 0.82;
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(1)::after {
-    content: "\1F4B0";
+    content: "₹";
     background: #f0eaff;
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(2)::after {
-    content: "\1F9FE";
+    content: "₹";
     background: #fff0f3;
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(3)::after {
-    content: "\1F48E";
+    content: "◆";
     background: #e8f7f4;
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(4)::after {
-    content: "\1F3AF";
+    content: "★";
     background: #fff5e5;
 }
 
