@@ -6589,22 +6589,22 @@ button:hover {
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(1)::after {
-    content: "💰";
+    content: "\1F4B0";
     background: #f0eaff;
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(2)::after {
-    content: "🧾";
+    content: "\1F9FE";
     background: #fff0f3;
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(3)::after {
-    content: "💎";
+    content: "\1F48E";
     background: #e8f7f4;
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(4)::after {
-    content: "🎯";
+    content: "\1F3AF";
     background: #fff5e5;
 }
 
