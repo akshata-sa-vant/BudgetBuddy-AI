@@ -6,7 +6,11 @@ import './styles.css';
 import Dashboard from './components/Dashboard';
 import Chatbot from './components/Chatbot';
 
-const API = 'http://127.0.0.1:8000/api';
+const API =
+    import.meta.env.VITE_API_URL ||
+    (import.meta.env.DEV
+        ? "http://127.0.0.1:8000/api"
+        : "https://budgetbuddy-student-finance-platform.onrender.com/api");
 
 function api(path, options = {}) {
     const token = localStorage.getItem('token');
