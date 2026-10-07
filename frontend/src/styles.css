@@ -6590,22 +6590,18 @@ button:hover {
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(1)::after {
-    content: "₹";
     background: #f0eaff;
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(2)::after {
-    content: "₹";
     background: #fff0f3;
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(3)::after {
-    content: "◆";
     background: #e8f7f4;
 }
 
 .app:has(.summary-grid) .summary-card:nth-child(4)::after {
-    content: "★";
     background: #fff5e5;
 }
 
